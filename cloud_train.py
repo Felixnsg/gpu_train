@@ -200,7 +200,9 @@ def train_felix_classifier_cloud(data_path, epochs=70, log_dir='training_logs'):
 
 if __name__ == "__main__":
     # Configuration - UPDATE THIS PATH TO YOUR DATA LOCATION
-    DATA_PATH = "/home/username/felix_classifier/data/processed"  # Update this path
+    DATA_PATH = "/root/gpu_train/data/processed"
+
+  # Update this path
     EPOCHS = 70
     LOG_DIR = "training_logs"
     
