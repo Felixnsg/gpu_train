@@ -88,7 +88,8 @@ class TransformSubset(Dataset):
 # Main code (this would go in your main script)
 def main(data_path = None):
     # Create dataset
-    data_path = r"C:\Users\Felix\Documents\ModelBuilding\data\processed"
+    if data_path is None:
+        data_path = "data/processed"
 
     dataset = Facedataset(root_dir=data_path, transform=None)
     
