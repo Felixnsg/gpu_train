@@ -163,7 +163,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Monitor remote training')
     parser.add_argument('hostname', help='Remote server hostname/IP')
     parser.add_argument('username', help='SSH username')
-    parser.add_argument('--remote-log-dir', default='/home/username/felix_classifier/training_logs',
+    parser.add_argument('--remote-log-dir', default='/root/felix_classifier/training_logs',
                        help='Remote log directory path')
     parser.add_argument('--password', help='SSH password (not recommended, use key instead)')
     parser.add_argument('--key-path', help='Path to SSH private key')

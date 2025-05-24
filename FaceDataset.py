@@ -258,5 +258,5 @@ def fine_tune_model(fine_tune_path, checkpoint_path='models/felix_classifier.pth
     return model, history
 
 
-model, history = fine_tune_model(fine_tune_path= r'C:\Users\Felix\Desktop\Saved_Images', checkpoint_path = r"C:\Users\Felix\Desktop\felix_classifier.pth",
-                                 epochs=50)
+#model, history = fine_tune_model(fine_tune_path= r'C:\Users\Felix\Desktop\Saved_Images', checkpoint_path = r"C:\Users\Felix\Desktop\felix_classifier.pth",
+                                 #epochs=50)S
